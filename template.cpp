@@ -10,8 +10,6 @@ using namespace std;
 #define repi(i,a,b) for(int i=a; i<=b; i++) 
 #define repd(i,a,b) for(int i=a; i>=b; i--)
 
-const int INF = ~(1<<31);
-
 vector<bool> is_prime(INT_MAX, true);
 void seive_(int n){
 	is_prime[0] = is_prime[1] = false;
